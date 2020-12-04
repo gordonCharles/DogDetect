@@ -1,0 +1,14 @@
+[Unit]
+Description=Dog Detect Service - see DogDetect_README.txt
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 -u DogDetect2.py --serviceMode
+WorkingDirectory=/home/pi/Software/Python/DogDetect2
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
