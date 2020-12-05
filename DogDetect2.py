@@ -157,7 +157,6 @@ if os.path.isfile(CONFIG_FILE):
     workingConfigFile.close()
 else:
     print("Running without a config file")
-WATCH_DOG_ENABLE       = False
 
 WATCH_DOG_PET_INTERVAL = 5 # Watch Dog Petting interval (must be less than 15 seconds or system will reboot
 keepAlive              = 0
