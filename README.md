@@ -10,6 +10,8 @@ the first consideration, we realized we needed to condition the dog owners, not 
 of a dog detection system and a sprinkler controller which can turn on segments of the yard as a deterrent to the owners, as most don't 
 want a wet dog when they return home and certainly don't want to get wet themselves.  The corresponding sprinkler controller can be found here:  
 
+[A more interactive description of this project can be found here.](https://thegacway.com/index.php/2020/12/10/sprinklercontroller/)
+
 [SprinklerController - Raspberry Pi Flask Bootstrap 4 implementation](https://github.com/gordonCharles/SprinklerController)
 
 Requirements
@@ -162,7 +164,7 @@ would not have her dog do its business in our yard anymore.  So much for honesty
 
 Related Work
 ------------ 
-This application is the first half of a larger project.  The second half is a [sprinkler controller designed for a mobile interface](https://github.com/gordonCharles/SprinklerController).
+This application is the first half of a larger project.  The second half is a [sprinkler controller designed for a mobile interface](xs://github.com/gordonCharles/SprinklerController).
   
 Dependencies
 ------------
